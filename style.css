@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 68;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(SKZ.jpg)
+}
+
+.body {
+
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.widget {
+    width: 60%;
+    margin: 6em;
+    margin: 100px;
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+.Reloj {
+    width: 100%;
+    padding: 15px;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.Reloj .caja-segundos {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.Reloj .segundos,
+.Reloj .ampm {
+    font-size: 2rem;
+    display: block;
+}
